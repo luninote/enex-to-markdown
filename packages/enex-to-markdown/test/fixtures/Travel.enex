@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20260101T120000Z" application="Evernote" version="10.100">
+<note>
+<title>Trip plan</title>
+<created>20250301T090000Z</created>
+<updated>20250302T101500Z</updated>
+<tag>travel</tag>
+<tag>2025</tag>
+<note-attributes><author>A. Traveller</author><source-url>https://example.com/itinerary</source-url></note-attributes>
+<content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<h2>Before we go</h2>
+<div><en-todo checked="true"/>Book the train</div>
+<div><en-todo checked="false"/>Renew passport</div>
+<div>See the <a href="evernote:///view/111/s1/0a1b2c3d-0000-4000-8000-000000000001/0a1b2c3d-0000-4000-8000-000000000001/">Packing list</a> and the <a href="https://example.com/map">map</a>.</div>
+<table><tr><th>Day</th><th>City</th></tr><tr><td>1</td><td>Lisbon</td></tr><tr><td>2</td><td>Porto</td></tr></table>
+<div><en-media hash="f829b914fc47cfc9c0747c119c27cf1b" type="image/png"/></div>
+<div>Safe code: <en-crypt hint="the usual" cipher="AES" length="128">RU5DMHNvbWVjaXBoZXJ0ZXh0</en-crypt></div>
+</en-note>]]></content>
+<resource>
+<data encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==</data>
+<mime>image/png</mime>
+<width>1</width>
+<height>1</height>
+<resource-attributes><file-name>map: day 1.png</file-name></resource-attributes>
+</resource>
+</note>
+<note>
+<title>Packing list</title>
+<created>20250301T091000Z</created>
+<updated>20250301T091000Z</updated>
+<tag>travel</tag>
+<content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><ul><li>Charger</li><li>Rain jacket</li></ul><en-media hash="3c82688fb21bbf6df2409c98107d8d12" type="text/plain"/></en-note>]]></content>
+<resource>
+<data encoding="base64">UGFja2luZyBsaXN0IGZvciB0aGUgdHJpcC4K</data>
+<mime>text/plain</mime>
+<resource-attributes><file-name>list.txt</file-name></resource-attributes>
+</resource>
+</note>
+<note>
+<title>Trip plan</title>
+<created>20250305T080000Z</created>
+<updated>20250305T080000Z</updated>
+<content><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note><div>A second note with the same title.</div></en-note>]]></content>
+</note>
+</en-export>

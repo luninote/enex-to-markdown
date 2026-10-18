@@ -1,0 +1,53 @@
+{
+  "name": "@luninote/enex-to-markdown",
+  "version": "0.1.0",
+  "description": "Convert Evernote ENEX exports to a folder of Markdown files, with attachments, tags and links between notes.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "enex-to-markdown": "dist/cli.js"
+  },
+  "files": [
+    "dist/cli.js",
+    "dist/THIRD-PARTY-LICENSES.txt",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "enex",
+    "evernote",
+    "markdown",
+    "converter",
+    "export",
+    "notes",
+    "obsidian",
+    "cli"
+  ],
+  "homepage": "https://luninote.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luninote/enex-to-markdown.git"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@luninote/enml": "workspace:*",
+    "@luninote/export": "workspace:*",
+    "@noble/hashes": "2.4.0",
+    "@types/node": "^26.6.5",
+    "client-zip": "2.5.1",
+    "domhandler": "6.0.1",
+    "esbuild": "0.28.2",
+    "htmlparser2": "12.0.0",
+    "vitest": "^5.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/luninote/enex-to-markdown/issues"
+  }
+}

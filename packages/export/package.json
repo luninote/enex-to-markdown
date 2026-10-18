@@ -1,0 +1,26 @@
+{
+  "name": "@luninote/export",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@luninote/editor": "workspace:*",
+    "@luninote/enml": "workspace:*",
+    "domhandler": "6.0.1",
+    "htmlparser2": "12.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "30.0.0",
+    "@types/node": "^26.6.5",
+    "fast-check": "^4.10.2",
+    "jsdom": "30.1.2",
+    "vitest": "^5.0.3"
+  },
+  "license": "MIT"
+}
