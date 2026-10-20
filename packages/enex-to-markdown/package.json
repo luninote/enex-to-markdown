@@ -1,6 +1,6 @@
 {
   "name": "@luninote/enex-to-markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert Evernote ENEX exports to a folder of Markdown files, with attachments, tags and links between notes.",
   "license": "MIT",
   "type": "module",
